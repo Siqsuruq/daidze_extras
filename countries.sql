@@ -11,7 +11,7 @@ CREATE TABLE "public"."country" (
 	CONSTRAINT "country_unique_id" UNIQUE( "id" ) );
  ;
  
- INSERT INTO "country" ("iso", "name", "nicename", "iso3","numcode", "phonecode") VALUES ( 'AF', 'AFGHANISTAN', 'Afghanistan', 'AFG', 4, 93);
+INSERT INTO "country" ("iso", "name", "nicename", "iso3","numcode", "phonecode") VALUES ( 'AF', 'AFGHANISTAN', 'Afghanistan', 'AFG', 4, 93);
 INSERT INTO "country" ("iso", "name", "nicename", "iso3","numcode", "phonecode") VALUES ( 'AL', 'ALBANIA', 'Albania', 'ALB', 8, 355);
 INSERT INTO "country" ("iso", "name", "nicename", "iso3","numcode", "phonecode") VALUES ( 'DZ', 'ALGERIA', 'Algeria', 'DZA', 12, 213);
 INSERT INTO "country" ("iso", "name", "nicename", "iso3","numcode", "phonecode") VALUES ( 'AS', 'AMERICAN SAMOA', 'American Samoa', 'ASM', 16, 1684);
