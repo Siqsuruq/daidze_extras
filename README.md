@@ -13,6 +13,12 @@ __Some notes about Usage:__
 
 ```SELECT country.nicename, timezone.zone_name FROM country LEFT JOIN timezone ON  timezone.country_code = country.iso ORDER BY country.nicename ASC```
 
+
+3. tbl_view_exists is PLTcl function to check if table or view exists in public schema, return true or false
+
+```SELECT tbl_view_exists('v_work_period')```
+
+
 Etc.
 
 Have fun!!!
